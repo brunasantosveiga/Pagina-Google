@@ -1,0 +1,103 @@
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3px;
+    height: 48px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.apps {
+    width:20px;
+}
+nav div {
+    margin: 8px;
+}
+.gmail_imagens,
+.login,
+.iconeapps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto';
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.login {
+    background-color: #1a73e8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 4px;
+    color: white;
+    font-family: 'roboto';
+    font-size: 14px;
+}
+.iconeapps {
+    margin-left: 18px;
+    margin-right: 18px;
+
+}
+.div_google {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 290px;
+}
+.logogoogle {
+    width: 272px;
+    height: 92px;
+}
+.div_search {
+    display: flex;
+    justify-content: center;
+    height: 160px;
+}
+.form {
+    height: 44px;
+    width: 582px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(226, 223, 223);
+    border-radius: 25px;
+}
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    outline: 0;
+}
+input {
+    border: 1px solid transparent;
+    outline: 0;
+}
+.search {
+    width: 447px;
+    height: auto;
+}
+.lupa {
+    padding: 12px 0px 12px 15px;
+    width: 3%;
+    height: auto;
+}
+.teclado {
+    width: 5%;
+    height: auto;
+    padding: 8px 0px 8px 5px;
+}
+.microfone {
+    width: 2%;
+    height: auto;
+    padding: 10px 15px 10px 0px;
+}
+
+@media (max-width:1000px) {
+
+}
