@@ -1,15 +1,20 @@
-
+body {
+    margin: 0px;
+    font-family: arial;
+}
+* {
+    box-sizing: border-box;
+}
 nav {
     display: flex;
     justify-content: flex-end;
-    margin: 3px;
+    padding: 3px;
     height: 48px;
 }
 a {
     text-decoration: none;
     color: black;
 }
-
 .apps {
     width:20px;
 }
@@ -18,30 +23,26 @@ nav div {
 }
 .gmail_imagens,
 .login,
-.iconeapps {
+.iconeapps,
+.div_button {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'roboto';
     font-size: 14px;
-    font-weight: bold;
     color: black;
+    height: 40px;
 }
 .login {
     background-color: #1a73e8;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 20px 25px 20px 25px;
     border-radius: 4px;
     color: white;
-    font-family: 'roboto';
     font-size: 14px;
 }
 .iconeapps {
-    margin-left: 18px;
-    margin-right: 18px;
-
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 15px;
 }
 .div_google {
     display: flex;
@@ -56,6 +57,7 @@ nav div {
 .div_search {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     height: 160px;
 }
 .form {
@@ -63,7 +65,7 @@ nav div {
     width: 582px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(226, 223, 223);
+    border: 1px solid #dfe1e5;
     border-radius: 25px;
 }
 form {
@@ -84,7 +86,7 @@ input {
 }
 .lupa {
     padding: 12px 0px 12px 15px;
-    width: 3%;
+    width: 6%;
     height: auto;
 }
 .teclado {
@@ -93,11 +95,46 @@ input {
     padding: 8px 0px 8px 5px;
 }
 .microfone {
-    width: 2%;
+    width: 5%;
     height: auto;
     padding: 10px 15px 10px 0px;
 }
-
+button {
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    border: transparent;
+}
+button:hover {
+    border: 1px solid #dfe1e5;
+}
+Footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 94px;
+    background-color: #f2f2f2;
+}
+.footer_1 {
+    padding: 15px 20px 15px 30px;
+    border-bottom: 1px solid #dfe1e5;
+    color: rgb(134, 134, 134);
+    font-size: 14px;
+}
+.footer_2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px 12px 20px;
+}
+.f2_1 a {
+    padding: 15px 10px 12px 20px;
+    color: rgb(134, 134, 134);
+    font-size: 14px;
+}
 @media (max-width:1000px) {
 
 }
