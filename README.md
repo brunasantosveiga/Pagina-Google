@@ -1,5 +1,5 @@
-﻿# Pagina inicial do Google
-Página inicial do Gogle, responsiva, feita como estudo de HTML5/CSS3.
+# Pagina inicial do Google
+Página inicial do Gogle, responsiva, reproduzida como estudo de HTML5/CSS3.
 
 Tela do computador:
 
